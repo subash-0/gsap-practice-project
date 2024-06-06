@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: 'china';
+    src: url('./3856NeueMachina.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+nav h1{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav h1 i{
+    display: inline-block;
+  transform: rotate(45deg);
+}
+nav #navItems{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#navItems h4{
+    font-size: 14px;
+   font-weight: 400;
+   padding: 10px 10px;
+   cursor: pointer;
+}
+#navItems h4:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#navItems button{
+    background-color: white;
+    
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#navItems button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.center{
+    padding: 50px;
+    display: flex;
+    width: 100%;
+}
+
+#center-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100%;
+    width: 44%;
+    
+}
+#center-part1 h1{
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: china;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+#center-part1 p{
+    font-size: 14px;
+    width: 95%;
+}
+#center-part1 button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 50%;
+}
+#center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+#center-part2 img{
+    height: 80% !important;
+    width: 100%;
+   
+    
+}
+#bottom1section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 25%;
+    width: 100%;
+}
+#bottom1section img{
+    height: 60px;
+}
+
+.section2{
+   
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.section2 .services{
+    padding: 30px 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.services h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-family: china;
+    background-color: lawngreen;
+    color: black;
+
+}
+.services p{
+    font-size: 14px;
+    width: 40%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    height: 83%;
+    width: 100%;
+}
+.element{
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    height: 200px;
+    width: 47%;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px 0px #160101c4;
+}
+.element .image{
+    width: 45%;
+       
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    
+}
+.element .desc{
+    padding: 20px;
+    width: 55%;
+}
+.desc h4{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: china;
+    margin-bottom: 10px;
+}
+.desc p{
+    font-size: 14px;
+    width: 90%;
+}
+.line1{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    border: 1px solid white !important;
+    box-shadow: 0 5px 0px #00c6f3 !important;
+}
